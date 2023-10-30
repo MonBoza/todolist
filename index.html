@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="JS/scripts.js"></script>
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <h2>Add a task:</h2>
+    <form id="new-task">
+        <label for="new-task-name">Task</label>
+        <input type="text" id="new-task-name" name="new-task-name">
+        <label for="new-date">Due Date</label>
+        <input type="date" id="new-date" name="new-date">
+        <label for="new-completed-status">Did you complete the task? Check for yes.</label>
+        <input type="checkbox" id="new-completed-status" name="new-completed-status">
+        <button type="submit">Submit</button>
+        </form>
+
+            <h2>Task List:</h2>
+            <div id="tasks">
+            </div>
+
+            <div id="list-details" class="hidden">
+                <p>Task:<span id="task"></span></p>
+                <p>Due Date:<span id="due-date"></span></p>
+                <p>Completed?<span id="completed"></span></p>
+            </div>
+
+</body>
+
+</html>
