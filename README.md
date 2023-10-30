@@ -8,9 +8,11 @@ Test: It will make a task info string message.
 Code: Task.taskInfo()
 Expected Output: taskName + dueDate + true
 
-Test:
-Code:
-Expected Output:
+Describe: TaskList();
+Test: It will add tasks to global variable.
+Code: TaskList.addTask("groceries");
+Expected Output: TaskList;
+            {groceries,}
 
 Test:
 Code:
